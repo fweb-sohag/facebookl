@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://kit-pro.fontawesome.com/releases/v5.15.1/css/pro.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>facebook</title>
+</head>
+
+<body>
+    <div class="continer_full login_bg">
+        <div class="continer login">
+            <div class="all_login" >
+                <div class="login_contint">
+                    <h1>facebook</h1>
+                    <h2>facebook helps you connect and share with people in your life.</h2>
+                </div>
+                <div class="login_form" id="all">
+                    <form action="">
+                        <input type="email" name="" id="email" placeholder="email address or phone number">
+                        <small id="emailerr"></small>
+                        <input type="password" name="" id="pass" placeholder="passwored">
+                        <small id="passerr"></small>
+                        <button type="submit" onclick=" return subm()" class="bt1">log in</button>
+                        <h3><a href="#">Forgotten password</a></h3>
+                    </form>
+                    <button class="bt2" type="submit" id="create">create new account</button>
+                </div>
+            </div>
+
+            <div id="close" class="overlay">
+                <i id="all_close" class="fa fas fa-times"></i>
+                <h1>sign up</h1>
+                <p>it's quick and easy.</p>
+                <form action="">
+                    <input type="text" placeholder="frist name" id="fname">
+                    <small id="fnameerr"></small>
+                    <input type="text" placeholder="last name" id="lname">
+                    <small id="lnameerr"></small>
+                    <p>pleass enter mail</p>
+                    <input type="email" name="" placeholder="enter your email" id="email0">
+                    <small id="email0err"></small>
+                    <p>pleass enter your password</p>
+                    <input type="password" name="" placeholder="enter your password" id="pass0">
+                    <small id="pass0err"></small>
+                    <p>Date of barth</p>
+                    <input type="text" name="" id="date">
+                    <input type="text" name="" id="month">
+                    <input type="text" name="" id="year">
+                    <p>gender</p>
+                    <label class="gender">mail<input type="radio" name="gender" value="mail" id=""></label>
+                    <label class="gender m-20">femail<input type="radio" name="gender" value="femail" id=""></label>
+                    <label class="gender">costom<input type="radio" name="gender" value="costom" id=""></label>
+                    <button type="submit" id="singup" onclick="return  sup()">sing up</button>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

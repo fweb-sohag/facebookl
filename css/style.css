@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    vertical-align: middle;
+}
+body{
+    background-color: #F0F2F5  ;
+}
+
+.continer_full{
+    width: 100%;
+}
+.continer_full .continer{
+    width: 960px;
+    margin: 0 auto;
+}
+.login_bg{
+    background-color: #F0F2F5;
+}
+.login_bg .login{
+    position: relative;
+}
+.login_bg .login .login_contint{
+    width: 500px;
+    float: left;
+}
+.login_bg .login .login_contint h1{
+    margin-top: 200px;
+    font-weight: 400;
+    
+}
+.login_bg .login .login_contint h2{
+    font-size: 28px;
+    text-transform: capitalize;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif
+}
+.login_bg .login .login_form{
+    width: 400px;
+    padding:10px;
+    float: left;
+    -webkit-box-shadow: 0px 2px 11px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 11px -3px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 11px -3px rgba(0,0,0,0.75);
+    margin-top: 80px;
+    border-radius: 5px;
+}
+.login_bg .login .login_form input{
+    width: 100%;
+    line-height: 50px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    border: 1px solid #DADDE1;
+    outline: none;
+}
+.login_bg .login .login_form h3{
+    text-align: center;
+    line-height: 50px;
+    border-bottom: 1px solid #DADDE1;
+    text-decoration: none;
+}
+.login_bg .login .login_form h3 a{
+    text-decoration: none;
+}
+.login_bg .login .login_form .bt1{
+    width: 100%;
+    line-height: 50px;
+    background-color: #166FE5;
+    border-radius: 10px;
+    color: #ffff;
+    cursor: pointer;
+}
+.login_bg .login .login_form .bt2{
+   padding: 15px;
+   border-radius: 10px;
+   text-align: center;
+    margin-left: 100px;
+    background-color: #36A420;
+    color: #ffff;
+    text-transform: capitalize;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.login_bg .login .overlay{
+    width: 430px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,30%);
+    background-color: #ffff;
+    border-radius: 5px;
+    padding: 20px;
+    -webkit-box-shadow: 0px 2px 11px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 11px -3px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 11px -3px rgba(0,0,0,0.75);
+    display: none;  
+}
+.login_bg .login .overlay i{
+    float: right;
+    cursor: pointer;
+}
+.login_bg .login .overlay h1{
+    text-transform: capitalize;
+    margin-top: -15px;
+    
+}
+.login_bg .login .overlay p{
+    text-transform: capitalize;
+    color: #7F858C;
+}
+/* .login_bg .login .overlay form input{
+    width: 190px;
+} */
+
+/* .login_bg .login .overlay form label{
+    color: #B0B4B8;
+} */
+.login_bg .login .overlay input[type=text]{
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+
+  margin-bottom: 10px;
+  border: 1px solid #DADDE1;
+}
+.login_bg .login .overlay #fname{
+    margin-right: 5px;
+    border: 1px solid #DADDE1;
+    width: 190px;
+}
+.login_bg .login .overlay #fname{
+    border: 1px solid #DADDE1;
+    width: 190px;
+}
+.login_bg .login .overlay input[type=email]{
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #DADDE1;
+}
+.login_bg .login .overlay input[type=password]{
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #DADDE1;
+}
+.login_bg .login .overlay #date{
+    width: 123px;
+    border: 1px solid #DADDE1;
+    color: black;
+}
+.login_bg .login .overlay #month{
+    width: 123px;
+    margin: 0 5px;
+    border: 1px solid #DADDE1;
+}
+.login_bg .login .overlay #year{
+    width: 123px;
+    border: 1px solid #DADDE1;
+}
+.m-20{
+    margin:  0 5px;
+}
+.login_bg .login .overlay .gender{
+    width: 123px;
+    display: inline-block;
+    background-color: #ffff;
+    padding:10px;
+    text-transform: capitalize;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #DADDE1;
+}
+.login_bg .login .overlay .gender [type=radio]{
+    float: right;
+}
+.login_bg .login .overlay #birth{
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #DADDE1;
+}
+.login_bg .login .overlay #singup{
+    padding: 10px 70px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    left: 50%;
+    transform: translate(50%);
+    background-color: #42B72A;
+    color: #ffff;
+    transition: all linear 0.4s;
+    -webkit- transition: all linear 0.2s;
+
+}
+.login_bg .login .overlay #singup:hover{
+    background-color: #699B5C;
+}
